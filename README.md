@@ -1,5 +1,7 @@
 # QuiNE-ground-truth-1.0
-The QuiNE-ground-truth-1.0 contains
+The QuiNE-ground-truth-1.0 was constructed as part of the paper "Expert Concept-Modeling Ground Truth Construction for Word Embeddings Evaluation in Concept-Focused Domains", (forthcoming, COLING 2020).
+
+QuiNE-ground-truth-1.0 contains
 (a) a corpus;
 (b) a conceptual model and multiple research questions, distilled from the model by experts, that can be answered on the basis of the corpus; 
 (c) lists of terms (preferably hierarchically ordered) manually selected and linked by experts to the concepts appearing in the model; 
