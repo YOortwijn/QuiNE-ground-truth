@@ -4,8 +4,8 @@ The QuiNE-ground-truth-1.0 was constructed as part of the paper "Expert Concept-
 QuiNE-ground-truth-1.0 consists of
 (a) a corpus;
 (b) a conceptual model and multiple research questions, distilled from the model by experts, that can be answered on the basis of the corpus; 
-(c) lists of terms (preferably hierarchically ordered) manually selected and linked by experts to the concepts appearing in the model; 
-(d) specifically delimited text segments - ideally paragraphs - that are identifiable and retrievable by means of a uniquer identifier, in which terms linked to the concepts appear and that are judged by experts relevant to the research questions, preferably with a varying degree of relevance.
+(c) lists of terms (hierarchically ordered) manually selected and linked by experts to the concepts appearing in the model; 
+(d) specifically delimited text segments that are identifiable and retrievable by means of a uniquer identifier, in which terms linked to the concepts appear and that are judged by experts relevant to the research questions, with a varying degree of relevance.
 
 Unfortunately, it is not possible for us to release our Quine datasets from the Quine in Context corpus at this moment for copyright reasons, as the books from the Quine corpus are copyrighted. If you do own the works in the corpus, contact us for the derived data sets. Construction of the Quine in Context dataset is described below for rough reproducability.
 
