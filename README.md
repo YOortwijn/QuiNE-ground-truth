@@ -1,15 +1,17 @@
-# QuiNE-ground-truth-1.0
-The QuiNE-ground-truth-1.0 was constructed as part of the paper "Expert Concept-Modeling Ground Truth Construction for Word Embeddings Evaluation in Concept-Focused Domains", (forthcoming, COLING 2020).
+# QuiNE-GT 1.0
+QuiNE-GT 1.0 is the first release of QuiNE-GT, an expert-controlled, concept-focused ground truth constructed as part of the paper "Expert Concept-Modeling Ground Truth Construction for Word Embeddings Evaluation in Concept-Focused Domains", (forthcoming, COLING 2020).
 
-QuiNE-ground-truth-1.0 consists of
+QuiNE-GT 1.0 consists of
 (a) a corpus;
 (b) a conceptual model and multiple research questions, distilled from the model by experts, that can be answered on the basis of the corpus; 
 (c) lists of terms (hierarchically ordered) manually selected and linked by experts to the concepts appearing in the model; 
 (d) specifically delimited text segments that are identifiable and retrievable by means of a uniquer identifier, in which terms linked to the concepts appear and that are judged by experts relevant to the research questions, with a varying degree of relevance.
 
-Unfortunately, it is not possible for us to release our Quine datasets from the Quine in Context corpus at this moment for copyright reasons, as the books from the Quine corpus are copyrighted. If you do own the works in the corpus, contact us for the derived data sets. Construction of the Quine in Context dataset is described below for rough reproducability.
+Unfortunately, it is not possible for us to release our Quine datasets from the Quine in Context corpus at this moment for copyright reasons, as the books from the Quine corpus are copyrighted. If you do own the works in the corpus, contact us for the derived data sets. Construction of the Quine in Context dataset is described below for rough reproducibility.
 
-An step-by-step overview of the ground truth construction is available [here](https://docs.google.com/document/d/1ffZD3iTT_P_JWY4-ujAP_XQDnUuv2DwRKHQjWTNFvq0/edit?usp=sharing).
+## Ground truth construction log
+
+A step-by-step overview of the ground truth construction is available [here](https://docs.google.com/document/d/1ffZD3iTT_P_JWY4-ujAP_XQDnUuv2DwRKHQjWTNFvq0/edit?usp=sharing).
 
 ## The Quine in Context corpus  
 The Quine in Context dataset contains all philosophical texts written by W. V. Quine (228 books and articles from between 1932 and 2008) in plaintext format. Every file in the dataset corresponds to one single article or one section, chapter or essay of a book, resulting in a total of 818 files. The dataset has been produced from pdf files, which have been first OCR-ed, and then manually cleaned by the Quine in Context Project team (Katjoesja Kruiger, Suze van Scheers, Lisa Dondorp, Thijs Ossenkoppele, Maud van Lier, Yvette Oortwijn) and by the student cohorts of Arianna Betti's slow-reading class on Quine's Word and Object in 2015/16 and 2016/17 at the University of Amsterdam (https://quine1960.wordpress.com/about/), supervised by the project team. All data that is irrelevant to the content of the article or section has been removed. This includes information on the institution the article or book was published at, repeating headers with the title of the chapter and metadata. Some of the texts are formula-rich and/or symbol-rich: formulas and symbols were replaced by short codes (XfZ and XsZ), which function as place-holders. For precise instructions for cleaning, one can find the manual that was used [here]( https://docs.google.com/document/d/1UOEPdWxEmNs73N7nO2p2McfISfTryMzMSZw0e-VM_XM/edit?usp=sharing). This document contains all the settings to be used in the OCR software ABBYY Finereader, and all the steps for manual correction after processing by ABBYY. Subsequently, paragraph structure was detected and restored using purpose-built normalization scripts geared towards batches of texts displaying ranges of similar shortcomings, ad-hoc command lines and finally visual inspection - at times involving comparison to the book images - and manual editing by means of a good editor.
