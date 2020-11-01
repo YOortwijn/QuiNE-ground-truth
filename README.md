@@ -1,4 +1,4 @@
-# QuiNE-GT 1.0
+# QuiNE-GT version 1.0
 QuiNE-GT 1.0 is the first release of QuiNE-GT, an expert-controlled, concept-focused ground truth constructed as part of the paper "Expert Concept-Modeling Ground Truth Construction for Word Embeddings Evaluation in Concept-Focused Domains", (forthcoming, COLING 2020).
 
 QuiNE-GT 1.0 consists of
